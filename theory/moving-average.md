@@ -11,7 +11,7 @@ $$SMA_t = \frac{1}{n} \sum_{i=0}^{n-1} P_{t-i}$$
 
 For example: $P_1$ = 3, $P_2$ = 5 and $P_3$ = 6
 
-$$\implies SMA = (3+5+6)/3 = 4.67$$
+$$\implies SMA = \frac{ 3+5+6 }{3} = 4.67$$
 
 
 ## Recursive Formula
