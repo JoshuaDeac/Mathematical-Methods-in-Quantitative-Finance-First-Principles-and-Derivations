@@ -4,7 +4,7 @@ The goal of this project is to build a rigorous understanding of the mathematica
 
 ### The Learning Philosophy
 This project assumes **zero prior knowledge of financial markets**, but requires a **strong foundation in mathematics**.
-* **Prerequisites:** At least 1-2 years of university-level calculus and linear algebra exposure. 
+* **Prerequisites:** At least 1-2 years of university-level calculus, linear algebra and some probability exposure. 
 * **Progression:** As we advance into more complex algorithms and strategies, the required mathematical maturity will increase respectfully.
 
 
