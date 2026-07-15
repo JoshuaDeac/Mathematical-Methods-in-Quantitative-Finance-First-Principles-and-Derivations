@@ -1,10 +1,9 @@
 ## Standard Deviation
 
 ## Definition
+Standard deviation is a statistical measure of how spread out the numbers in a dataset are from the average (mean).
 
-$$Standard deviation is a statistical measure of how spread out the numbers in a dataset are from the average (mean).$$
-
-$$ use "sd" short for standard deviation $$
+use "sd" short for standard deviation 
 
 ## Context
 
