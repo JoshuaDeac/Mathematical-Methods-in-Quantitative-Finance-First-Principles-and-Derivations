@@ -45,7 +45,7 @@ SMA are used more now in analysis to help current strategies since its considere
 
 ## QnA 2:
 
-Another question to make you think now. Which $n$ is better? n = 100 or n = 1000, in most cases n = 100 is better but not for math reasons. It is simply due to lag and computer efficiency. The weighted average of adding an extra 5 days onto 100 wont make much of a difference since after 100 days you have a good idea of what the SMA already is so adding more days to the calculation will simply slow you down. ( note most strategies dont even use that many, for example Bollinger Bands use only a 20 day SMA )
+Another question to make you think now. Which $n$ is better? n = 100 or n = 1000, in most cases n = 100 is better but not for math reasons. It is simply due to lag and computer efficiency. The weighted average of adding an extra 5 days onto 100 wont make much of a difference since after 100 days you have a good idea of what the SMA already is so adding more days to the calculation will simply slow you down. ( note most strategies dont even use that many, for example bollianger Bands use only a 20 day )
 
 
 
