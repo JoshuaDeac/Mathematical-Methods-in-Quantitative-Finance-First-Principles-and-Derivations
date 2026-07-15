@@ -9,15 +9,15 @@ use "sd" short for standard deviation
 
 This assets price is currently one almost two sd away from the mean
 
-if an assets price (that day ) is one sd away from the mean $\implies$ it is considered to be normal and not very volatile ( statistically speaking: About 68% of the time, the price ( of an asset on any given day ) will stay within one SD of the average. This is the "normal" stuff that happens every day. )
+If an assets price (that day ) is one sd away from the mean $\implies$ it is considered to be normal and not very volatile ( statistically speaking: About 68% of the time, the price ( of an asset on any given day ) will stay within one SD of the average. This is the "normal" stuff that happens every day. )
 
-if an assets price (that day ) is two sd away from the mean $\implies$  the price (that day) is quite unusually high or low compared to the mean, we would consider this day to be very odd and subject to high volatility. ( statistically speaking: About 95% of the time, the price( of an asset on any given day ) will stay within 2 SDs of the average. i.e 95% of data should be within 2 sd's way from the mean )
+If an assets price (that day ) is two sd away from the mean $\implies$  the price (that day) is quite unusually high or low compared to the mean, we would consider this day to be very odd and subject to high volatility. ( statistically speaking: About 95% of the time, the price( of an asset on any given day ) will stay within 2 SDs of the average. i.e 95% of data should be within 2 sd's way from the mean )
 
-if an assets price (that day ) is three sd away from the mean $\implies$ this is a very rare event and very volatile.( statistically speaking: it should be about 99.7% of data that stays within 3 sd )
+If an assets price (that day ) is three sd away from the mean $\implies$ this is a very rare event and very volatile.( statistically speaking: it should be about 99.7% of data that stays within 3 sd )
 
-however dont get mixed up when using them, for example if we calculate sd = 5, that does not mean an asset is 5 sd away, it means that one sd = 5, so if SMA = 100 then one sd would be from (95,105) and about 70% of the asset should be encompassed within this interval. Two sd would be from (90,110) and so on.
+However dont get mixed up when using them, for example if we calculate sd = 5, that does not mean an asset is 5 sd away, it means that one sd = 5, so if SMA = 100 then one sd would be from (95,105) and about 70% of the asset should be encompassed within this interval. Two sd would be from (90,110) and so on.
 
-
+So when someone says "its x standard deviations away" they are just talking about $$x \times sd$$ + mean = current price they are talking about.
 
 
 ## Formula
