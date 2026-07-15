@@ -17,7 +17,7 @@ If an assets price (that day ) is three sd away from the mean $\implies$ this is
 
 However dont get mixed up when using them, for example if we calculate sd = 5, that does not mean an asset is 5 sd away, it means that one sd = 5, so if SMA = 100 then one sd would be from (95,105) and about 70% of the asset should be encompassed within this interval. Two sd would be from (90,110) and so on.
 
-So when someone says "its x standard deviations away" they are just talking about $$x \times sd$$ + mean = current price they are talking about.
+So when someone says "its x standard deviations away" $\implies$   $$x \times sd$$ + mean = current price they are talking about.
 
 
 ## Formula
