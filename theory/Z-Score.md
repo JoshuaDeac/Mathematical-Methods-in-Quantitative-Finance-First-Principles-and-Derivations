@@ -7,7 +7,7 @@ Z-score are very closely related to [Standard Deviations](../theory/Standard-Dev
 
 $$Z = \frac{P - \mu}{\sigma}$$
 
-* $$P$$: The current price.
+* $P$: The current price.
 * $\mu$: The mean (average) price.
 * $\sigma$: The standard deviation
 
@@ -24,12 +24,9 @@ Thats why its so powerful in allowing you to calculate very different assets sid
 
 ## More differences between Z-scores and sd
 
-$$
-\begin{array}{|l|l|l|}
-\textbf{Feature} & \textbf{Standard Deviation ($\sigma$)} & \textbf{Z-Score (Z)} \\ \hline
-\textbf{Perspective} & \text{Dataset-wide: The "personality"} & \text{Point-in-time: The "status"} \\ \hline
-\textbf{Units} & \text{Price Units (\$)} & \text{Unitless (Ratio of SDs)} \\ \hline
-\textbf{Goal} & \text{Summarize total spread} & \text{Summarize extremity} \\ \hline
-\textbf{Example} & \text{"SD is \$5"} & \text{"Z-score is 2"} \\ \hline
-\end{array}
-$$
+
+
+
+
+
+
