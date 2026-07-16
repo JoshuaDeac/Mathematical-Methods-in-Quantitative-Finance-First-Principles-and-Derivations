@@ -5,8 +5,8 @@ p-values are very closely related to [Z-scores](../theory/Z-Score.md), basically
 ## Formula 
 
 There is no "Simple" FormulaThe Normal Distribution curve is defined by this equation:
-
-$$f(x) = \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2}x^2}\\$$
+$$\\$$
+$$f(x) = \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2}x^2}$$
 To find the area (the P-value), you must calculate the definite integral of that function:
 $$\\$$
 $$\Phi(Z) = \int_{-\infty}^{Z} \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2}t^2} dt$$
