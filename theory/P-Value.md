@@ -5,12 +5,12 @@ p-values are very closely related to [Z-scores](../theory/Z-Score.md), basically
 ## Formula 
 
 There is no "Simple" FormulaThe Normal Distribution curve is defined by this equation:
-$$\\$$
+$\newline$
 $$f(x) = \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2}x^2}$$
 To find the area (the P-value), you must calculate the definite integral of that function:
-$$\\$$
+$\newline$
 $$\Phi(Z) = \int_{-\infty}^{Z} \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2}t^2} dt$$
-$$\\$$
+$\newline$
 This integral cannot be solved with basic algebra. It has no "closed-form" solution.
 
 
