@@ -4,6 +4,14 @@ p-values are very closely related to [Z-scores](../theory/Z-Score.md), basically
 
 ## Formula 
 
+Formula for P-value (for a Z-score):For a one-tailed test (looking only at the "right" tail):
+$$P = 1 - \Phi(Z)$$
+For a two-tailed test (the standard for trading, looking at both extremes):
+$$P = 2 \times (1 - \Phi(\vert{}Z\vert{}))$$
+
+
+
+
 There is no "Simple" FormulaThe Normal Distribution curve is defined by this equation:
 $\newline$
 $$f(x) = \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2}x^2}$$
