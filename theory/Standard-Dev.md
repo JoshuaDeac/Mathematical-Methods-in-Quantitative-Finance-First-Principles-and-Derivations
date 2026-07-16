@@ -1,9 +1,14 @@
 ## Standard Deviation
 
 ## Definition
+
 Standard deviation is a statistical measure of how spread out the numbers in a dataset are from their average (mean).
 
 We sometimes use the term "sd", short for standard deviation.
+
+## Important Assumption
+
+It is important to note that when we talk about standard deviations in the context of asset prices, we are assuming that asset returns are normally distributed. You may make this assumption occasionally to help simplify things, but this is **not** the truth, **especially** in more volatile markets such as Cryptocurrency.
 
 ## Context
 
