@@ -7,7 +7,7 @@ use "sd" short for standard deviation
 
 ## Context
 
-This assets price is currently one almost two sd away from the mean
+"This assets price is currently one almost two sd away from the mean"- some cool trader
 
 If an assets price (that day ) is one sd away from the mean $\implies$ it is considered to be normal and not very volatile ( statistically speaking: About 68% of the time, the price ( of an asset on any given day ) will stay within one SD of the average. This is the "normal" stuff that happens every day. )
 
