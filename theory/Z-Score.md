@@ -24,7 +24,7 @@ Thats why its so powerful in allowing you to calculate very different assets sid
 
 ## More differences between Z-scores and sd
 
-
+$$
 \begin{array}{|l|l|l|}
 \hline
 \textbf{Feature} & \textbf{Standard Deviation (\sigma)} & \textbf{Z-Score (Z)} \\ \hline
@@ -32,8 +32,7 @@ Thats why its so powerful in allowing you to calculate very different assets sid
 \textbf{Units} & \text{Price Units (\$)} & \text{Unitless (Ratio of SDs)} \\ \hline
 \textbf{Goal} & \text{Summarize total spread} & \text{Summarize extremity} \\ \hline
 \textbf{Example} & \text{"SD is \$5"} & \text{"Z-score is 2"} \\ \hline
-\end{array}
-
+\end{array}$$
 
 
 
