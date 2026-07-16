@@ -27,6 +27,10 @@ Note: sd is not a constant value say like meters, if you go to Japan a meter wil
 
 $$\sigma = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (P_i - \mu)^2}$$
 
+$\sigma$ represents the Standard Deviation.$\mu$ is the mean (average) of the prices.$P_i$ is each individual price in your set.$n$ is the total number of prices.
+
+
+
 This is the formula, although it looks scary it is justified.
 
 The part inside the root is actually the formula for variance. Then simply rooting it gives us sd.
