@@ -26,7 +26,6 @@ Thats why its so powerful in allowing you to calculate very different assets sid
 
 $$
 \begin{array}{|l|l|l|}
-\hline
 \textbf{Feature} & \textbf{Standard Deviation ($\sigma$)} & \textbf{Z-Score (Z)} \\ \hline
 \textbf{Perspective} & \text{Dataset-wide: The "personality"} & \text{Point-in-time: The "status"} \\ \hline
 \textbf{Units} & \text{Price Units (\$)} & \text{Unitless (Ratio of SDs)} \\ \hline
