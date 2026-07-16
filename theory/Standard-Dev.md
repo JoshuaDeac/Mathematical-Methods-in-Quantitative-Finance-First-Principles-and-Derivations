@@ -7,7 +7,7 @@ We sometimes use the term "sd", short for standard deviation.
 
 ## Context
 
-"This assets price is currently one almost two sd away from the mean" -some cool trader (probably me)
+"This assets price is currently one almost two sd away from the mean"- some cool trader ( probably me )
 
 If an assets price (that day) is within 1 sd from the mean, it can considered to be normal and not very volatile. Statistically speaking, about 68% of the time, the price of an asset on any given day will stay within one SD of the mean. This is the "normal" stuff that happens every day. 
 

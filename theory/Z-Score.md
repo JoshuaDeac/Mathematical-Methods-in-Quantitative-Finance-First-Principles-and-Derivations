@@ -22,7 +22,21 @@ On top of this a Z-score is standardized, but what is it standardizing? Well eve
 Thats why its so powerful in allowing you to calculate very different assets side by side.
 
 
-## More differences between Z-scores and sd
+## Relation to P-value
+
+If we assume asset returns follow a "Normal Distribution," we can map every Z-score to a specific probability.
+
+If your Z-score is $2$, you can look it up in a Z-table and see that the probability of the price being that high or higher is about $2.28\%$.
+
+## Relation to P-value
+
+If we assume asset returns follow a "Normal Distribution," we can map every Z-score to a probability (P-value).
+
+### Key Concepts:
+* **The Two-Tailed Test:** In trading, we care about extremes in both directions. Therefore, we use a two-tailed threshold (e.g., $|Z| > 2$).
+* **Confidence Intervals:** 95% of data typically falls within $Z \approx \pm 1.96$. Anything outside this is considered statistically significant.
+* **The "Fat Tail" Warning:** Financial data is "leptokurtic." Extreme moves (high Z-scores) happen more often than the Z-table suggests.
+
 
 
 
