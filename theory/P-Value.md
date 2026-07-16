@@ -8,8 +8,9 @@ There is no "Simple" FormulaThe Normal Distribution curve is defined by this equ
 
 $$f(x) = \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2}x^2}\\$$
 To find the area (the P-value), you must calculate the definite integral of that function:
-$$\\\Phi(Z) = \int_{-\infty}^{Z} \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2}t^2} dt\\$$
-
+$$\\$$
+$$\Phi(Z) = \int_{-\infty}^{Z} \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2}t^2} dt$$
+$$\\$$
 This integral cannot be solved with basic algebra. It has no "closed-form" solution.
 
 
