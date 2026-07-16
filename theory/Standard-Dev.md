@@ -27,7 +27,10 @@ Note: sd is not a constant value say like meters, if you go to Japan a meter wil
 
 $$\sigma = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (P_i - \mu)^2}$$
 
-$\sigma$ represents the Standard Deviation.$\mu$ is the mean (average) of the prices. $P_i$ is each individual price in your set.$n$ is the total number of prices.
+$\sigma$ represents the Standard Deviation.
+$$\mu$$ is the mean (average) of the prices. 
+$$P_i$$ is each individual price in your set.
+$$n$$ is the total number of prices.
 
 
 
