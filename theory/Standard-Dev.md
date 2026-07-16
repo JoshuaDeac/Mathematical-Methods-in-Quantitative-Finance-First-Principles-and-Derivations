@@ -8,7 +8,7 @@ We sometimes use the term "sd", short for standard deviation.
 
 ## Important Assumption
 
-It is important to note that when we talk about standard deviations in the context of asset prices, we are assuming that asset returns are normally distributed. You may make this assumption occasionally to help simplify things, but this is **not** the truth, **especially** in more volatile markets such as Cryptocurrency.
+It is important to note that when we talk about standard deviations in the context of asset prices, specifically when we say things like "X% of prices should lie within Y standard deviations", we are assuming that asset returns are normally distributed. You may make this assumption occasionally to help simplify things, but this is **not** the truth, **especially** in more volatile markets such as Cryptocurrency.
 
 ## Context
 
