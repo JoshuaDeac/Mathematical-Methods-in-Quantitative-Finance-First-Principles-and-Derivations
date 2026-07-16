@@ -24,23 +24,29 @@ Thats why its so powerful in allowing you to calculate very different assets sid
 
 ## Relation to P-value
 
-If we assume asset returns follow a "Normal Distribution," we can map every Z-score to a specific probability.
+[P-Value](../theory/P_Value.md)
 
-If your Z-score is $2$, you can look it up in a Z-table and see that the probability of the price being that high or higher is about $2.28\%$.
+If we assume asset returns follow a "Normal Distribution" (or some other distribution ) we can map every Z-score to a probability (P-value).
 
-## Relation to P-value
+Think of the Z-score as the location and the P-value as the probability of that location.
 
-If we assume asset returns follow a "Normal Distribution," we can map every Z-score to a probability (P-value).
+## Theoretical side for math and quants
 
-### Key Concepts:
-* **The Two-Tailed Test:** In trading, we care about extremes in both directions. Therefore, we use a two-tailed threshold (e.g., $|Z| > 2$).
-* **Confidence Intervals:** 95% of data typically falls within $Z \approx \pm 1.96$. Anything outside this is considered statistically significant.
-* **The "Fat Tail" Warning:** Financial data is "leptokurtic." Extreme moves (high Z-scores) happen more often than the Z-table suggests.
+If you were able to make a distribution( like the normal one) which could capture how the market moves, you would simply just need to get, the z-scores and p values and you would have an edge instantly, however it is very difficult to do for a few reasons, the main one being that the market changes and adapts constantly. Your distribution could be great in 2024 but not so much in 2026. Hence if you were able to make a distribution for all of 2026 or 2027 then you could have made money already using those predictive models and methods.
+
+There is quite a lot on this topic such as limits to how much you could make and so on. However if you have gotten this far you can clearly see how knowing the math alone can get you places.
+
+## QnA 1: 
+
+Assume normal distribution for sake of the question.
+Why would a quant prefer to write their code to trigger a "Buy" signal based on a Z-Score (e.g., $Z < -2$) rather than a dollar-amount deviation (e.g., "Price is $10 below the mean")?
+
+Well its because a z-score is universal measurement so even if the asset price doubles that same sd wont trigger, but a z-score will adjust accordingly. The strategy automatically adjusts to the asset's volatility.
 
 
+## QnA 2:
 
-
-
-
+If Asset A has a Z-score of $2.0$ and Asset B has a Z-score of $0.5$, which asset is currently exhibiting more "extreme" behavior relative to its recent history?
+( I dont want to say "Asset X is the answer" so it spoils the fun ).The first asset is the correct answer.
 
 
