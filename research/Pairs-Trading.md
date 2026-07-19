@@ -7,11 +7,11 @@
 
 ## What?
 
-Pairs trading is a market neutral strategy( designed to generate returns that are independent of the overall direction of the market ).Here instead of looking at a single assets price we look at 2, of which have a strong relationship. The premise is basically when we see this relationship break in the short term we take advantage of the long term to secure trades which we assume will even out over a long time to produce this relationship.
+Pairs trading is a market-neutral strategy designed to generate returns that are independent of the overall direction of the market.Here instead of looking at a single assets price we look at two assets that share a strong historical relationship. The premise is basically when we see this relationship break in the short term we bet that the relationship will revert to its long-term mean.
 
 ## The picture
 
-Take two stocks that move together historically say over 10+ years. You create a variable S for your "Spread"(in formula section) which is done by taking the difference between them, and if they are truly related then the graph should look like a line oscillating around a mean instead of random walk drifting into infinity.
+Take two stocks that move together historically e.g over 10+ years. You create a variable S for your "Spread"(in formula section) which is done by taking the difference between them, and if they are truly related then the graph should look like a line oscillating around a mean instead of random walk drifting into infinity.
 
 
 ## Formulas:
@@ -31,6 +31,6 @@ You don't need to predict if the market goes up or down. You only need to predic
 
 * Correlation $\neq$ Cointegration: This is the most common trap. Just because two stocks move in the same direction doesn't mean they will revert to a mean. You need a statistical test (like Engle-Granger) to prove they are cointegrated.
 * An asset might change internally which could break the relationship they had.
-* You need to be careful on execution risk since you are opening two positions same time. Slipping and fees can make your edge a loss if not significant enough.
+* You need to be careful on execution risk since you are opening two positions same time. Slippage and fees can make your edge a loss if the expected spread is not significant enough to cover costs.
 
 
