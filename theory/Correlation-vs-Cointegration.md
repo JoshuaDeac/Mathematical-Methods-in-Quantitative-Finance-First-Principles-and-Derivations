@@ -7,7 +7,8 @@ These are very closely correlated meanings ( no pun intended ) and people usuall
 
 ## Correlation
 
-Correlation is just the common way to describe the Pearson correlation coefficient which has values from r $\element$ (-1,1)
+Correlation is just the common way to describe the Pearson correlation coefficient which has values from $\sigma$
+
 
 
 
