@@ -26,9 +26,9 @@ Co-integration is a statistical property of a collection of time series variable
 
 ## Why the "vs"?
 
-Correlation measures the **direction** of movement (local), while co-integration identifies a **persistent equilibrium** (long-term). A strategy built on correlation alone is prone to "drift," while co-integration provides the statistical justification for mean-reversion.
+Correlation measures the **direction** of movement (shorter periods/ locally), while co-integration identifies a **equilibrium** (long-term). A strategy built on correlation alone is exposed to "drift" risk while co-integration provides the statistical justification for mean-reversion.
 
-## How to test?
+## Testing?
 
 To prove two assets are co-integrated, we typically use the **Engle-Granger** two-step method or the **Augmented Dickey-Fuller (ADF)** test on the residuals of a linear regression.
 
