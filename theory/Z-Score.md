@@ -44,6 +44,14 @@ Why would a quant prefer to write their code to trigger a "Buy" signal based on 
 Well its because a z-score is universal measurement so even if the asset price doubles that same sd wont trigger, but a z-score will adjust accordingly. The strategy automatically adjusts to the asset's volatility.
 
 
+## Noted assumption
+
+The Stationarity Assumption
+The Z-score assumes that the mean ($\mu$) and standard deviation ($\sigma$) are stable over time. In real markets, this is often false, volatility changes. If an asset is in a strong trend, the mean is moving, which can make a Z-score signal misleading. Always verify if your data is stationary before relying solely on these metrics.
+
+
+
+
 ## QnA 2:
 
 If Asset A has a Z-score of $2.0$ and Asset B has a Z-score of $0.5$, which asset is currently exhibiting more "extreme" behavior relative to its recent history?
