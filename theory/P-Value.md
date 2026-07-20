@@ -55,7 +55,7 @@ There are trade offs naturally.
 
 Why does assuming only a normal distribution make things dangerous for trading?
 
-Answer: It creates a "false sense of security." Assuming a normal distribution underestimates the frequency and chances of extreme events happening. Because real financial data has "fat tails" extreme moves happen significantly more often than the bell curve predicts. Relying solely on normal distribution math often leaves you unprepared for the true level of risk in sudden, high volatile markets.
+Answer: It creates a "false sense of security." Assuming a normal distribution underestimates the frequency and chances of extreme events happening. Because real financial data has "fat tails"( Kurtosis ) extreme moves happen significantly more often than the bell curve predicts. Relying solely on normal distribution math often leaves you unprepared for the true level of risk in sudden, high volatile markets.
 
 ## Note
 
@@ -63,11 +63,6 @@ By now you would have guessed but it depends on what distribution you assume, th
 ( this is why we assume some prerequisites in probability )
 
 
-## QnA 2: 
-Assume normal distribution for sake of the question.
-Why would a quant prefer to write their code to trigger a "Buy" signal based on a Z-Score (e.g., $Z < -2$) rather than a dollar-amount deviation (e.g., "Price is $10 below the mean")?
-
-Well its because a z-score is universal measurement so even if the asset price doubles that same sd wont trigger, but a z-score will adjust accordingly. The strategy automatically adjusts to the asset's volatility.
 
 
 
