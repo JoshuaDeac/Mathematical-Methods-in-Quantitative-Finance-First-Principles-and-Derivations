@@ -1,11 +1,11 @@
 ## Variance and Risk Metrics
 
-Important notes about variance is that it treats "good" volatility and "bad" volatility as the same which we dont really want since we want to consider the "bad" separately since that will be our risk side.
-Instead we look at Variance at risk (VaR)
+Important note about variance is that it treats "good" volatility and "bad" volatility as the same which we dont really want since we want to consider the "bad" separately since that will be our risk side.
+Instead we look at Value at risk (VaR)
 
 
 ## VaR definition
-It is the max expected loss over a given timer period at some confidence interval / level
+It is the max expected loss over a given time period at some confidence interval / level
 
 ## VaR calculations
 
@@ -31,6 +31,14 @@ If your 95% VaR is $10,000, your CVaR might be $15,000. This means that when you
 
 * In risk management, knowing the average of your worst-case losses is often more useful for capital requirements than just knowing the VaR.
 * Encourages better diversification since those losses could outweigh the gains and CVaR makes you consider those massive risks.
+
+
+## Noted Limitations
+
+* **Distributions (again)** we assume a normal distribution or any other distribution but in reality, financial markets do not always conform to these distributions.
+* **Stationarity** both historical and Monte Carlo methods assume that the future will behave like the past.
+
+* **Time Horizon Sensitivity:** Time periods mentioned in VaR are actually a very sensitive part of getting the VaR, for example a 1-day VaR and a 10-day VaR are not just scaled linearly because volatility isn't constant, you have to adjust for the "square root of time" rule, note that this is an approximation, not a hard-and-fast rule.($\text{VaR}_{T} = \text{VaR}_{1} \times \sqrt{T}$), but even that is an approximation that assumes random walk behavior.
 
 
 
