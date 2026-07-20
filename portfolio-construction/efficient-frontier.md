@@ -27,9 +27,11 @@ To find optimal weights for our portfolio, we use Lagrange Multipliers to minimi
 * Target Return: $w^T \mu = \mu_p$
 * Fully Invested: $w^T \mathbf{1} = 1$, where "1" is the vector with 1's
 
-The Lagrangian function ($L$) is:$$L(w, \lambda_1, \lambda_2) = \frac{1}{2} w^T \Sigma w - \lambda_1(w^T \mu - \mu_p) - \lambda_2(w^T \mathbf{1} - 1)$$
+The Lagrangian function ($L$) is:
+$$L(w, \lambda_1, \lambda_2) = \frac{1}{2} w^T \Sigma w - \lambda_1(w^T \mu - \mu_p) - \lambda_2(w^T \mathbf{1} - 1)$$
 
-To solve for the optimal weights $w^*$, we take the partial derivative with respect to $w$ and set it to zero:$$\frac{\partial L}{\partial w} = \Sigma w - \lambda_1 \mu - \lambda_2 \mathbf{1} = 0 \implies w^* = \Sigma^{-1} (\lambda_1 \mu + \lambda_2 \mathbf{1})$$
+To solve for the optimal weights $w^*$, we take the partial derivative with respect to $w$ and set it to zero:
+$$\frac{\partial L}{\partial w} = \Sigma w - \lambda_1 \mu - \lambda_2 \mathbf{1} = 0 \implies w^* = \Sigma^{-1} (\lambda_1 \mu + \lambda_2 \mathbf{1})$$
 
 
 source for the math: https://docs.mosek.com/portfolio-cookbook/markowitz.html#the-mean-variance-model, "Through the method of Lagrangian multipliers" ctrl + F 
