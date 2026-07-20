@@ -25,16 +25,31 @@ In other words, the total risk of my portfolio is each assets weighted risk adde
 To find optimal weights for our portfolio, we use Lagrange Multipliers to minimize the variance subject to two constraints:
 
 * Target Return: $w^T \mu = \mu_p$
-* Fully Invested: $w^T \mathbf{1} = 1$, where "1" is the vector with 1's
+* Fully Invested: $w^T \mathbf{1} = 1$, where $\mathbf{1}$ is the $N \times 1$ vector of ones.
 
 The Lagrangian function ($L$) is:
 $$L(w, \lambda_1, \lambda_2) = \frac{1}{2} w^T \Sigma w - \lambda_1(w^T \mu - \mu_p) - \lambda_2(w^T \mathbf{1} - 1)$$
 
 To solve for the optimal weights $w^*$, we take the partial derivative with respect to $w$ and set it to zero:
 $$\frac{\partial L}{\partial w} = \Sigma w - \lambda_1 \mu - \lambda_2 \mathbf{1} = 0 \implies w^* = \Sigma^{-1} (\lambda_1 \mu + \lambda_2 \mathbf{1})$$
-
+note: The Matrix Inverse = ($\Sigma^{-1}$)
 
 source for the math: https://docs.mosek.com/portfolio-cookbook/markowitz.html#the-mean-variance-model, "Through the method of Lagrangian multipliers" ctrl + F 
+
+To further find $\lambda_1$ and $\lambda_2$ they act like volume buttons, we keep turning both of them or tweaking their values to find when they fit our constraints from above.
+
+To find the exact values for these knobs, we take our formula for $w^*$ and plug it back into our two constraints:#
+Plug into the Return Constraint: 
+* $w^T \mu = \mu_p \implies (\Sigma^{-1}(\lambda_1 \mu + \lambda_2 \mathbf{1}))^T \mu = \mu_p$
+Plug into the Budget Constraint: 
+* $w^T \mathbf{1} = 1 \implies (\Sigma^{-1}(\lambda_1 \mu + \lambda_2 \mathbf{1}))^T \mathbf{1} = 1$
+
+
+
+
+## Noted Limitations to optimized math
+
+In the real world we dont know $\mu$ or $\Sigma$ exactly we simply used estimates for these then optimize for those estimates.
 
 
 
