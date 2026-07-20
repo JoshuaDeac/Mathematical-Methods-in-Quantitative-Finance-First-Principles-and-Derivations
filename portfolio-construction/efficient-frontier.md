@@ -51,7 +51,7 @@ Once you solve for the lambdas using basic algebra, you plug them back into the 
 
 In the real world we dont know $\mu$ or $\Sigma$ exactly we simply used estimates for these then optimize for those estimates.
 
-Additionally you might notice there is a $1/2$ before our variance in The Lagrangian function, this is because when we take the derivative of the variance ($w^T \Sigma w$), the result is $2 \Sigma w$. The $\frac{1}{2}$ cancels out that $2$, leaving us with a cleaner equation. It doesn't change the outcome, just makes the algebra much simpler.
+Additionally you might notice there is a $\frac{1}{2}$ before our variance in The Lagrangian function, this is because when we take the derivative of the variance ($w^T \Sigma w$), the result is $2 \Sigma w$. The $\frac{1}{2}$ cancels out that $2$, leaving us with a cleaner equation. It doesn't change the outcome, just makes the algebra much simpler.
 
 
 
