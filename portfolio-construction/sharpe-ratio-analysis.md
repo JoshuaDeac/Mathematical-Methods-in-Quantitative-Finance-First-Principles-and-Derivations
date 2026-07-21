@@ -4,6 +4,9 @@ In quantitative finance these ratios are used to estimate the efficiency of your
 
 ## Sharpe Ratio
 
+It tells you how much excess return you are receiving for the extra volatility you are enduring by holding a riskier asset.
+
+$$\text{Sharpe Ratio} = \frac{\mathbb{E}[R_p] = w^T \mu - R_f}{\sigma_p}$$
 
 
 
