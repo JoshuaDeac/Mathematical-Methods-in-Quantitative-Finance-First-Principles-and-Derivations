@@ -4,6 +4,9 @@
         "cointegrated",
         "cointegration",
         "dont",
-        "Engle"
+        "Engle",
+        "internalizer",
+        "VWAP",
+        "WVAP"
     ]
 }
