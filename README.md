@@ -15,3 +15,5 @@ This project assumes **zero prior knowledge of financial markets**, but requires
 
 ### Feedback
 If you have questions, corrections, or suggestions, please reach out via email: **deacjoshua8@gmail.com**.
+
+Note: Still working on it.
