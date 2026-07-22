@@ -21,3 +21,5 @@ They are connected closely and as such feed each other when the market is under 
 
 
 
+
+

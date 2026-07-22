@@ -87,3 +87,6 @@ Multiplying daily ratios straight by 252 (the number of yearly trading days) to 
 * **Volatility** scales by the square root of time ($\sqrt{252} \times \text{Daily Volatility}$).
 
 **Limitation of Scaling:** The "square root of time" rule is an approximation, not a universal law. It relies on the assumption of iid returns.
+
+
+
