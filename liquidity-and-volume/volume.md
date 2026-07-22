@@ -42,7 +42,7 @@ After this HVN forms at price $x$, it acts almost like a magnet or anchor for se
 ## Key Volume Metrics
 
 ### Volume Weighted Average Price (VWAP)
-VWAP is the true benchmark average price an asset has traded at throughout a given time period. It acts as a primary institutional execution benchmark. Large funds try to execute buy orders below VWAP and sell orders above VWAP to minimize market impact—a form of risk management.
+VWAP is the true benchmark average price an asset has traded at throughout a given time period. It acts as a primary institutional execution benchmark. Large funds try to execute buy orders below VWAP and sell orders above VWAP to minimize market impact a form of risk management.
 
 * **Buying Below VWAP:** If a fund needs to accumulate a massive block of shares, buying below the day's VWAP means they acquired the asset at a below-average cost compared to the broader market, proving they accumulated during patient absorption phases rather than chasing green candles.
 * **Selling Above VWAP:** Conversely, when liquidating a large position, selling above VWAP means they achieved an above-average execution price, maximizing revenue before heavy selling pressures alter the trend.
