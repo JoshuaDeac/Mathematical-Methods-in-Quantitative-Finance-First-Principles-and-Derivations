@@ -27,6 +27,7 @@ symbol = "BTC-USD"  # this is which asset or stock you want to fetch the data fo
 #printing this to the console so you know its working and fetching data for the asset.
 print(f"Its working on getting prices for {symbol} (Press Ctrl+C to stop)...")
 # A simple while loop that doesn't stop until you stop it manually( could be optimized to stop when a trading day stops for that price )
+
 while True:
 
     price = fetch_live_price(symbol) # just putting a number to the asset.

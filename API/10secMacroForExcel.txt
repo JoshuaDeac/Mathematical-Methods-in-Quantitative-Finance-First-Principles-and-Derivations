@@ -1,0 +1,20 @@
+Dim NextRefresh As Double
+
+Sub StartLiveRefresh()
+    ' Refreshes all external data connections in the workbook
+    ActiveWorkbook.RefreshAll
+    
+    ' Schedule this macro to run again in 10 seconds 
+    ' (1 day / 24 hours / 60 minutes / 60 seconds * 10 seconds)
+    NextRefresh = Now + TimeValue("00:00:10")
+    Application.OnTime NextRefresh, "StartLiveRefresh"
+End Sub
+
+Sub StopLiveRefresh()
+    ' Safely stops the automated loop when you are done
+    On Error Resume Next
+    Application.OnTime NextRefresh, "StartLiveRefresh", , False
+End Sub
+
+
+ctrl + s, then press outside of box, then press f5 and press run. Should all work and excel should be updating nicely
