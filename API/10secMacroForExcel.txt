@@ -16,5 +16,3 @@ Sub StopLiveRefresh()
     Application.OnTime NextRefresh, "StartLiveRefresh", , False
 End Sub
 
-
-ctrl + s, then press outside of box, then press f5 and press run. Should all work and excel should be updating nicely
