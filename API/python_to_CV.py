@@ -19,7 +19,9 @@ def fetch_live_price(ticker_symbol):
     return None
 
 symbol = "BTC-USD"
-output_file = "live_price.csv"
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+output_file = os.path.join(script_dir, "live_price.csv")
 
 print(f"Starting live feed for {symbol} (Writing to {output_file})...")
 
@@ -29,13 +31,12 @@ while True:
         timestamp = time.strftime('%H:%M:%S')
         print(f"Time: {timestamp} | {symbol} Price: ${price:.2f}")
         
-        # Write the data to a CSV file that Excel can read
+        # Write the data to the CSV inside the API folder
         with open(output_file, "w") as f:
             f.write("Ticker,Price,Timestamp\n")
             f.write(f"{symbol},{price},{timestamp}\n")
             
     time.sleep(10)
-
 
 
 
