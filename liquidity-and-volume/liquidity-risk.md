@@ -34,8 +34,9 @@ $$\text{ILLIQ}_t = \frac{1}{D_t} \sum_{d=1}^{D_t} \frac{\vert{}R_{d,t}\vert{}}{\
 ## The Roll Measure
 
 $$\text{Roll}_t = 2 \sqrt{-\max(0, \text{Cov}(\Delta P_t, \Delta P_{t-1}))}$$
-$\Delta P_t$: Price change of the asset on day $t$ (i.e., $P_t - P_{t-1}$).
-$\text{Cov}(\Delta P_t, \Delta P_{t-1})$: First order autocovariance of price changes over the estimation window.
+
+* $\Delta P_t$: Price change of the asset on day $t$ (i.e., $P_t - P_{t-1}$).
+* $\text{Cov}(\Delta P_t, \Delta P_{t-1})$: First order autocovariance of price changes over the estimation window.
 
 
 
