@@ -17,6 +17,4 @@ Copy and paste the contents of "10secMacroForExcel.txt" in this folder and then 
 It should have worked, go back to your workbook and check if it updates every 10 seconds( you can change the times but its not useful for some stocks )
 
 
-
-
-
+Finished.
