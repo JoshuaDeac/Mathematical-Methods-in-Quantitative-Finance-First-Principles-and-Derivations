@@ -58,11 +58,6 @@ $$VWAP = \frac{\sum (\text{Typical Price} \times \text{Volume})}{\sum \text{Volu
 * **Numerator ($\sum$ Price $\times$ Volume):** The summed total dollar amount traded over the timeframe.
 * **Denominator ($\sum$ Volume):** The total volume traded in that timeframe.
 
-**On-Balance Volume (OBV):**
-* If $$\text{Close}_{\text{current}} > \text{Close}_{\text{previous}}$$: $\text{OBV} = \text{OBV}_{\text{previous}} + \text{Volume}_{\text{current}}$
-* If $\text{Close}_{\text{current}} < \text{Close}_{\text{previous}}$: $\text{OBV} = \text{OBV}_{\text{previous}} - \text{Volume}_{\text{current}}$
-* If $\text{Close}_{\text{current}} = \text{Close}_{\text{previous}}$: $\text{OBV} = \text{OBV}_{\text{previous}}$
-
 *Note: While an HVN is a broader zone where heavy trading occurs, the **Point of Control (POC)** is the exact, single price level within that zone where the absolute highest volume was traded, often called the ultimate "Fair Value."*
 
 ## Noted Limitations
