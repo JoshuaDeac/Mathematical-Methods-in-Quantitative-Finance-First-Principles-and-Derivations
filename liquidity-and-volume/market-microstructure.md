@@ -25,7 +25,11 @@ The width of a spread is dictated by three major factors:
 * **Volume:** if there is high volume and competition for these assets more people are trading and the gap shrinks to make sure its a HVN and liquidity is assured. Vise versa for lower popular / lower volume / lower competition stocks the gaps are wider to compensate for the fact that there is low liquidity.
 
 
+## Shortly on High Frequency Trading (HFT):
 
+While order books and spreads form the foundation of everyday exchange mechanics, HFT is an almost completely different ball game. Because a full exploration of low-latency algorithms, colocation, and microwave networks is well beyond the scope of this project, it is worth briefly acknowledging how HFT interacts with the basic structure outlined above.
+
+Where standard market makers widen spreads to protect themselves, HFT firms leverage speed, co located servers, and complex mathematical models to compress those windows of vulnerability to microseconds. Rather than holding inventory for long horizons, HFT algorithms act as ultra-fast market makers capturing tiny fractions of a penny across massive volume, or engaging in latency arbitrage exploiting temporary price discrepancies for the exact same asset across different exchanges before slower participants can react( making money off the slower people, so unless you can compete hardware and software wise with the big players you have no chance to get into this market dynamic ).
 
 
 
