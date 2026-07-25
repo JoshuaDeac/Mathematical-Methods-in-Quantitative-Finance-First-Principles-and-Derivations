@@ -10,7 +10,8 @@ To manage a portfolio of $N$ asset:
 
 ## Portfolio Expected Return
 
-The return of the portfolio is the weighted sum of each assets returns:$$E[R_p] = w^T \mu$$
+The return of the portfolio is the weighted sum of each assets returns:
+$$E[R_p] = w^T \mu$$
 
 
 
