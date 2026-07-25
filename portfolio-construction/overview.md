@@ -13,3 +13,6 @@ This is an evolving framework and the following are what we will look into:
 * Risk Metrics: Quantifying exposure and potential downside (e.g., VaR, CVaR).
 
 * Systemic Constraints: Accounting for transaction costs, liquidity, and leverage.
+
+
+Finished section on portfolios
