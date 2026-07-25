@@ -31,7 +31,8 @@ The Lagrangian function ($L$) is:
 $$L(w, \lambda_1, \lambda_2) = \frac{1}{2} w^T \Sigma w - \lambda_1(w^T \mu - \mu_p) - \lambda_2(w^T \mathbf{1} - 1)$$
 
 To solve for the optimal weights $w^*$, we take the partial derivative with respect to $w$ and set it to zero:
-$$\frac{\partial L}{\partial w} = \Sigma w - \lambda_1 \mu - \lambda_2 \mathbf{1} = 0 \implies w^* = \Sigma^{-1} (\lambda_1 \mu + \lambda_2 \mathbf{1})$$
+
+* $$\frac{\partial L}{\partial w} = \Sigma w - \lambda_1 \mu - \lambda_2 \mathbf{1} = 0 \implies w^* = \Sigma^{-1} (\lambda_1 \mu + \lambda_2 \mathbf{1})$$
 note: The Matrix Inverse = ($\Sigma^{-1}$)
 
 source for the math: https://docs.mosek.com/portfolio-cookbook/markowitz.html#the-mean-variance-model, "Through the method of Lagrangian multipliers" ctrl + F 
@@ -39,8 +40,8 @@ source for the math: https://docs.mosek.com/portfolio-cookbook/markowitz.html#th
 To further find $\lambda_1$ and $\lambda_2$ they act like volume buttons, we keep turning both of them or tweaking their values to find when they fit our constraints from above.
 
 To find the exact values for these knobs, we take our formula for $w^*$ and plug it back into our two constraints:
-* $w^T \mu = \mu_p \implies (\Sigma^{-1}(\lambda_1 \mu + \lambda_2 \mathbf{1}))^T \mu = \mu_p$
-* $w^T \mathbf{1} = 1 \implies (\Sigma^{-1}(\lambda_1 \mu + \lambda_2 \mathbf{1}))^T \mathbf{1} = 1$
+* $$w^T \mu = \mu_p \implies (\Sigma^{-1}(\lambda_1 \mu + \lambda_2 \mathbf{1}))^T \mu = \mu_p$$
+* $$w^T \mathbf{1} = 1 \implies (\Sigma^{-1}(\lambda_1 \mu + \lambda_2 \mathbf{1}))^T \mathbf{1} = 1$$
 
 and now we have simultaneous equation problem, which is simple to solve.
 
