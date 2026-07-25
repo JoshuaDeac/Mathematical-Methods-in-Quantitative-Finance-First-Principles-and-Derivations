@@ -6,3 +6,4 @@ This type of research can become important for investors since if you can get fi
 
 Note: the python file does not work, since some python calculations got out of hand and IRR is negative and it looks bad!
 
+No more research will be done into LBO models anymore
