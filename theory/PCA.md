@@ -42,6 +42,13 @@ Using this method also saves some overfitting research as well. Since a simpler 
 
 
 ## Noted Limitations:
+* Linearity Assumption: PCA only captures linear relationships between variables so if they dont have then its useless.
+* Variance does not always mean most information or that its always useful information
+* Sensitive to outliers and scaling, failing to z-score standardize your data means variables measured in larger units will artificially dominate the components regardless of importance.
+* PCA forces every component to be strictly perpendicular( so they are uncorrelated ) to the previous ones. The real world economic drivers or features are rarely strictly orthogonal.
+* Information loss, when you reduce  dimensions you are technically throwing away potential variance and information which for some might do more harm than help, so it should only be used if worth the risks( however you wish to measure what you consider risk is relative )
+
+
 
 
 
